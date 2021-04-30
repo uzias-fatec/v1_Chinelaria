@@ -2,7 +2,6 @@
 <html lang="pt-br">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -15,6 +14,12 @@
 
   <!-- Custom styles for this template -->
   <link href="css/shop-homepage.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quicksearch e bootstrap</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.quicksearch/2.3.1/jquery.quicksearch.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 </head>
 
@@ -23,10 +28,11 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html"> Chinelaria Eldorado </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <a class="navbar-brand" href="index.html"> Chinelaria Eldorado</a>
+      <div class="form-group input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+      <input name="consulta" id="txt_consulta" placeholder="Pesquise um produto..." type="text" class="form-control">
+       </div>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -55,11 +61,17 @@
 
       <div class="col-lg-3">
 
-        <h1 class="my-4">Categorias</h1>
+        <h1 class="my-4">Navegue Pelas Marcas</h1>
         <div class="list-group">
-          <a href="#" class="list-group-item">Masculino</a>
-          <a href="#" class="list-group-item">Femino</a>
-          <a href="#" class="list-group-item">Infantil</a>
+          <a href="#" class="list-group-item">Adidas</a> <img src="imagens/adidas 2.png" alt=""> </a> </td>
+          <a href="#" class="list-group-item">Balenciaga</a> <img src="imagens/balenciagas.png" alt=""> </a> </td>
+          <a href="#" class="list-group-item">Cartago</a> <img src="imagens/Cartago.png" alt=""> </a> </td>
+          <a href="#" class="list-group-item">Havainas</a> <img src="imagens/havaianas 2.png" alt=""> </a> </td>
+          <a href="#" class="list-group-item">Ipanema</a> <img src="imagens/ipanema.png" alt=""> </a> </td>
+          <a href="#" class="list-group-item">Nike</a> <img src="imagens/nike.png" alt=""> </a> </td>
+          <a href="#" class="list-group-item">Olympikus</a> <img src="imagens/olympikus.png" alt=""> </a> </td>
+          <a href="#" class="list-group-item">Raider</a> <img src="imagens/Rider.png" alt=""> </a> </td>
+          <a href="#" class="list-group-item">Kenner</a> <img src="imagens/Kenner.png" alt=""> </a> </td>
         </div>
 
       </div>
@@ -67,7 +79,7 @@
 
       <div class="col-lg-9">
 
-        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide my-8" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -210,7 +222,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Dev-Team VETERANOS</p>
     </div>
     <!-- /.container -->
   </footer>
