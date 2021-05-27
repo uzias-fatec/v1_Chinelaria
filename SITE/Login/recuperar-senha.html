@@ -13,27 +13,46 @@
 	<link rel="stylesheet" href="css/estilo.css">
 	</head>
 	<body>
-		<!--MENU PAGINA -->
-
-		 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		
+<!-- Inicio Barra de Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="..\index.html"> Chinelaria Eldorado </a>
+      <a class="navbar-brand" href="index.html"> Chinelaria Eldorado </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+
+          <!-- ITENS BARRA DE NAVEGAÇÃO -->
           <li class="nav-item">
-            <a class="nav-link" href="..\index.html">Home
-              <span class="sr-only">(current)</span> 
+            <a class="nav-link" href="../index.html">Home
+              <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="..\produtos.html">Produtos</a>
+            <a class="nav-link" href="../produtos.html">Produtos</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="login.html">Login</a>
+
+              <!-- DROPDOWN CATEGORIAS -->
+          <li class="nav-item dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Categorias</a> 
+                <div class="dropdown-menu">
+                   <a href="../masculino.html" class="dropdown-item">Masculino</a>
+                    <a href="../feminino.html" class="dropdown-item">Feminino</a>
+                    <a href="../infantil.html" class="dropdown-item">Infantil</a>
+                </div>
+
           </li>
+                  <!-- DROPDOWN - LOGIN -->
+          <li class="nav-item active dropdown"> <!-- Login Ativa -->
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Login</a>
+
+                 <div class="dropdown-menu">
+                    <a href="login.html" class="dropdown-item">Entrar</a> 
+                    <a href="../cadastro.html" class="dropdown-item">Cadastrar</a>  
+                  </div>
+        </li>
           <li class="nav-item">
             <a class="nav-link" href="contato.html">Contato</a>
           </li>
@@ -41,7 +60,7 @@
       </div>
     </div>
   </nav>
-  <!-- FIM MENU PAGINA -->
+  <!-- Fim Barra de Navegação -->
 
 	<section class="ftco-section">
 		<div class="container">
