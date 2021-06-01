@@ -6,3 +6,10 @@
 body {
   padding-top: 56px;
 }
+
+img.img-carousel
+{
+  width: 100%;
+  height: 400px;
+
+}
