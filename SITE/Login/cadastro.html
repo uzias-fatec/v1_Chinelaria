@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+  	<title>Cadastro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+
+		<!-- Inicio Barra de Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html"> <img src="../imagens/logo3.png" width="40"> Chinelaria Eldorado </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <!-- ITENS BARRA DE NAVEGAÇÃO -->
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../produtos.html">Produtos</a>
+          </li>
+
+              <!-- DROPDOWN CATEGORIAS -->
+          <li class="nav-item dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Categorias</a> 
+                <div class="dropdown-menu">
+                   <a href="../masculino.html" class="dropdown-item">Masculino</a>
+                    <a href="../feminino.html" class="dropdown-item">Feminino</a>
+                    <a href="../infantil.html" class="dropdown-item">Infantil</a>
+                </div>
+
+          </li>
+                  <!-- DROPDOWN - LOGIN -->
+          <li class="nav-item dropdown active">  <!-- Login Ativa -->
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Login</a>
+
+                 <div class="dropdown-menu">
+                    <a href="login.html" class="dropdown-item">Entrar</a> 
+                    <a href="../cadastro.html" class="dropdown-item">Cadastrar</a>  
+                  </div>
+        </li>
+          <li class="nav-item"> 
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fim Barra de Navegação -->
+
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h1 class=" text-center font-weight-bold  display-4">Cadastre-se</h1>
+          <div class="w-100"> </div>
+          <hr>  
+					
+		<div class="col-12">
+									<p class="social-media d-flex justify-content-center">
+										<a href="https://www.facebook.com/chinelariaeldorado1" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
+										<a href="https://www.instagram.com/chinelariaeldorado" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a>
+
+										<a href="https://web.whatsapp.com" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp"></span></a>
+									
+									</p>
+		</div> <!-- COL-12 - FIM MIDIAS SOCIAIS -->
+				</div>
+			</div>
+
+        <!-- INICIO FORMULÁRIO -->
+      <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputNome">Nome</label>
+      <input type="text" class="form-control" id="inputNome" placeholder="Digite seu Nome Completo ">
+    </div>
+    <div class="form-group col-md-3">
+      <label for="inputCPF">CPF</label>
+      <input type="text" class="form-control" id="inputCPF" placeholder="Digite seu CPF">
+    </div>
+
+     <div class="form-group col-md-3">
+      <label for="inputDataNasc">Data de Nascimento</label>
+      <input type="text" class="form-control" id="inputDataNasc" placeholder="Digite sua Data de Nascimento">
+    </div>
+  </div>
+
+   <div class="form-row">
+    <div class="form-group col-md-7">
+      <label for="inputEndereco">Endereço</label>
+      <input type="text" class="form-control" id="inputEndereco" placeholder="Digite o nome da sua rua ">
+    </div>
+    <div class="form-group col-md-1">
+      <label for="inputEnderecoNumero">Número</label>
+      <input type="text" class="form-control" id="inputEnderecoNumero" placeholder="Nº">
+    </div>
+
+     <div class="form-group col-md-4">
+      <label for="inputBairro">Bairro</label>
+      <input type="text" class="form-control" id="inputBairro" placeholder="Digite seu Bairro">
+    </div>
+  </div>
+ 
+
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Cidade</label>
+      <input type="text" class="form-control" placeholder="Digite o nome da Cidade " id="inputCidade">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputEstado">Estado</label>
+      <select id="inputEstado" class="form-control">
+        <option selected>Escolher</option>
+        <option>AM</option>
+        <option>BA</option>
+        <option>CE</option>
+        <option>DF</option>
+        <option>GO</option>
+        <option>MT</option>
+        <option>MG</option>
+        <option>RJ</option>
+        <option>SP</option>
+        <option>TO </option>
+      </select>
+    </div>
+
+    <div class="form-group col-md-2">
+      <label for="inputCEP">CEP</label>
+      <input type="text" class="form-control" placeholder="Digite seu CEP" id="inputCEP">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-3">
+      <label for="inputTelefone">Telefone</label>
+      <input type="text" class="form-control" placeholder="Digite seu Telefone" id="inputTelefone">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputEmail">Email</label>
+      <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu email">
+    </div>
+    <div class="form-group col-md-5">
+      <label for="inputPassword">Senha</label>
+      <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Concordo com os termos e condições
+      </label>
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
+
+<!-- FIM FORMULÁRIO -->
+			
+	
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+	</body>
+</html>
+
