@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+  	<title>Cadastro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+
+		<!-- Inicio Barra de Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html"> <img src="../imagens/logo3.png" width="40"> Chinelaria Eldorado </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <!-- ITENS BARRA DE NAVEGAÇÃO -->
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../produtos.html">Produtos</a>
+          </li>
+
+              <!-- DROPDOWN CATEGORIAS -->
+          <li class="nav-item dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Categorias</a> 
+                <div class="dropdown-menu">
+                   <a href="../masculino.html" class="dropdown-item">Masculino</a>
+                    <a href="../feminino.html" class="dropdown-item">Feminino</a>
+                    <a href="../infantil.html" class="dropdown-item">Infantil</a>
+                </div>
+
+          </li>
+                  <!-- DROPDOWN - LOGIN -->
+          <li class="nav-item dropdown active">  <!-- Login Ativa -->
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Login</a>
+
+                 <div class="dropdown-menu">
+                    <a href="login.html" class="dropdown-item">Entrar</a> 
+                    <a href="../cadastro.html" class="dropdown-item">Cadastrar</a>  
+                  </div>
+        </li>
+          <li class="nav-item"> 
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fim Barra de Navegação -->
+
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h1 class=" text-center font-weight-bold  display-4">Cadastro Produto</h1>
+          <div class="w-100"> </div>
+          <hr>  
+					
+		<div class="col-12">
+									<p class="social-media d-flex justify-content-center">
+										<a href="https://www.facebook.com/chinelariaeldorado1" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
+										<a href="https://www.instagram.com/chinelariaeldorado" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a>
+
+										<a href="https://web.whatsapp.com" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp"></span></a>
+									
+									</p>
+		</div> <!-- COL-12 - FIM MIDIAS SOCIAIS -->
+				</div>
+			</div>
+
+        <!-- INICIO FORMULÁRIO -->
+      <form>
+  <div class="form-row">
+    <div class="form-group col-md-6 offset-md-3">
+      <label for="inputNome">Nome</label>
+      <input type="text" class="form-control" id="inputNome" placeholder="Nome do Produto">
+    </div>
+    </div>
+
+      <div class="form-row">
+    <div class="form-group col-md-6 offset-md-3">
+      <label for="inputDescricao">Descrição</label>
+      <input type="text" class="form-control" id="inputDescricao" placeholder="Descrição Produto">
+    </div>
+  </div>
+
+      <div class="form-row">
+     <div class="form-group col-md-6 offset-md-3">
+      <label for="inputDataNasc">Preço</label>
+      <input type="text" class="form-control" id="inputDataNasc" placeholder="Preço Produto">
+    </div>
+  </div>
+  
+
+   <div class="form-row">
+    <div class="form-group col-md-6 offset-md-3">
+      <label for="inputEndereco">Categoria</label>
+      <input type="text" class="form-control" id="inputEndereco" placeholder="Categoria do Produto ">
+    </div>
+     </div>
+
+        <div class="form-row ">
+       <div class="form-group col-md-6 offset-md-3">
+      <div class="custom-file"> <!-- Custom tipo Arquivo -->
+            <input class="custom-file-input" type="file" id="arquivo">
+
+            <label class="custom-file-label">Selecione arquivo</label>
+        </div>
+      </div>
+    </div>
+ 
+<div class="form-row ">
+<div class="form-group col-md-6 offset-md-3">
+  <button type="submit" class="btn btn-success">Cadastrar</button>
+  <button type="submit" class="btn btn-danger">Cancelar</button>
+</div>
+</div>
+</form>
+
+<!-- FIM FORMULÁRIO -->
+			
+	
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+	</body>
+</html>
+
