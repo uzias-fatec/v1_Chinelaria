@@ -1,10 +1,26 @@
-.login-wrap {
+/*.login-wrap {
     order: 1;
 }
 
 	
 	.img {
     order: 2;
+}*/
+
+
+#rodapeLink a  {
+	color: #007bff;
+	font-weight: bold;
+
+}
+
+#rodapeLink h4, h5 {
+	color: #fff;
+	font-weight: bold;
+
 }
 
 
+#rodapeLink a:hover {
+	text-decoration: underline !important;
+}
