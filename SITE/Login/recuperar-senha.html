@@ -86,18 +86,19 @@
 			      	</div>
 							<form action="#" class="signin-form">
 			      		<div class="form-group mb-3">
-			      			<label class="label" for="name">E-mail</label>
-			      			<input type="text" class="form-control" placeholder="Digite seu email" required>
+			      			<label class="label" for="nameUser">E-mail</label>
+			      			<input type="email" class="form-control" placeholder="Digite seu email" maxlength="40" title="Informe um e-mail valido" required>
 			      		</div>
 		            <div class="form-group mb-3">
-		            	<label class="label" for="password">Código de segurança</label>
-		              <input type="password" class="form-control" placeholder="Código que enviamos via SMS" required>
+		            	<label class="label" for="Codigo-Seguranca">Código de segurança</label>
+		              <input type="text" class="form-control" placeholder="Código que enviamos via SMS" maxlength="5" pattern="[0-9]{5}" title="Informar código valido" required>
 		            </div>
 
 		            <div class="form-group mb-3">
-		            	<label class="label" for="password">Nova Senha</label>
-		              <input type="password" class="form-control" placeholder="Digite sua nova senha" required>
+		            	<label class="label" for="passwordNew">Nova Senha</label>
+		              <input type="password" class="form-control" placeholder="Digite sua nova senha" placeholder="Senha" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" maxlength="40" title=" A senha deve conter 8 ou mais caracteres que sejam pelo menos um número e uma letra maiúscula e minúscula" required>
 		            </div>
+                
 		            <div class="form-group">
 		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">ENVIAR</button>
 		            </div>
